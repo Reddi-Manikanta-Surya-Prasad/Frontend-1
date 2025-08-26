@@ -21,7 +21,7 @@
 ## Tags
    Tags are fundamental building blocks of HTML markup and they are used to define the structure and the content in the HTML.
    There are 3 types of Tags
-### 1. COntainer/Paired/Dual Tags
+### 1. Container/Paired/Dual Tags
        -> The container tags define a block of content within html document. They have opening tag and closing tag.
        example <p></p>, <h1></h1>, <div></div>
 ### 2. Non-Container/Empty/Self-Closing Tags
