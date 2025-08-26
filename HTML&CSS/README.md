@@ -36,3 +36,14 @@
         <p></p>
        </div>
 ### Element == Tags+Content
+### Attributes
+    Attributes in HTML provides an additional information about an HTML element. 
+    This additional information could occur the modification eighter the behaviour or the appearance of an element.
+    Attributes are always added in the opening tags.
+    <p id="para"></p>
+    --> Syntax: attributeValue="attributeValue"
+### adding image
+    <img src="image.png" alt="related to image", title="image-title-to-hover-on-img>
+    --> src attribute specifies source url of the media, like image, video or audio.
+    --> alt attribute provides the alternate text for images or a fallback content of any other element
+    --> title attribute the title of the image shows when hover on the image, it is the kind of advisory information.
