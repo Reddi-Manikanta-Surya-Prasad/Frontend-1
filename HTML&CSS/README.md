@@ -18,3 +18,20 @@
     title tag is used specify the title of the page
 ### <body></body>
     everything about the content will be included in inside the body
+## Tags
+   Tags are fundamental building blocks of HTML markup and they are used to define the structure and the content in the HTML.
+   There are 3 types of Tags
+### 1. COntainer/Paired/Dual Tags
+       -> The container tags define a block of content within html document. They have opening tag and closing tag.
+       example <p></p>, <h1></h1>, <div></div>
+### 2. Non-Container/Empty/Self-Closing Tags
+       -> The Non-Container tags doesn't have any content, these tags are used to insert specific elemens or provide 
+       attributes to certain parts of an HTML.
+       example: <br>, <hr>, <img>
+### 3. Nested Tags
+       -> Nested Tags in HTML refer to the situation where one HTML tag is placed inside another HTML tag.
+       example: 
+       <div>
+        <h1></h1>
+        <p></p>
+       </div>
