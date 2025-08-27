@@ -64,4 +64,15 @@
     --> You do this using: An element with an id (the target). An <a> tag with an href="#idname" (the link).
     --> mailto: is a type of URL scheme used inside the href attribute of an anchor (<a>) tag.
     --> When clicked, it opens the user’s default email client (like Outlook, Gmail app, or Apple Mail) with a new draft email.
-    -->
+## Semantic-Tags
+### 1. Introduction to Semantic HTML
+    Semantic HTML means using HTML elements that clearly describe their meaning and purpose.
+    Instead of just using <div> and <span> everywhere, we use tags like:
+    <header> → for the top section
+    <nav> → for navigation menus
+    <main> → for main content
+    <article> → for independent content
+    <section> → for grouping related content
+    <aside> → for tangential or supplementary content (like sidebar, notes, related links)
+    <footer> → for the bottom section
+    These tags make the structure more understandable for both developers and browsers.
