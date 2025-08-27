@@ -47,3 +47,21 @@
     --> src attribute specifies source url of the media, like image, video or audio.
     --> alt attribute provides the alternate text for images or a fallback content of any other element
     --> title attribute the title of the image shows when hover on the image, it is the kind of advisory information.
+    --> id attribute (id="unique_identifier") in simple terms assigning unique identifier to a particular element
+    --> class attribute (class="className") is used to group multiple elements with the same style or behavior.
+    --> Unlike id, a class name can be shared by many elements.
+    --> An element can also have multiple classes (separated by spaces).
+    --> style attribute (style="property:value") and multiple rules are seperated by semicolon(;)
+    --> Inline styles apply only to that specific element.
+    --> They override internal & external CSS (unless those use !important).
+    --> Useful for quick testing or unique one-off changes.
+    --> Not recommended for large projects → better to use class or external CSS for maintainability.
+    --> The <a> tag in HTML is called the anchor tag. It is used to create hyperlinks — clickable links that navigate to another webpage, file, email, or section within the same page. The closing tag </a> is required, and the clickable text/image goes inside.
+    --> href Attribute: href stands for Hypertext REFerence. It defines the destination URL (where the link will take the user when clicked). Without href, the <a> tag is just text and not a link.
+    --> target="_blank": The target attribute in the <a> tag tells the browser where to open the link.
+    --> When you use target="_blank", the link will open in a new tab (or window, depending on browser settings)It’s often used when linking to external websites, so the user doesn’t lose your page.
+    --> Internal Reference: An internal reference means creating a hyperlink that jumps to another section of the same page instead of going to another page or website.
+    --> You do this using: An element with an id (the target). An <a> tag with an href="#idname" (the link).
+    --> mailto: is a type of URL scheme used inside the href attribute of an anchor (<a>) tag.
+    --> When clicked, it opens the user’s default email client (like Outlook, Gmail app, or Apple Mail) with a new draft email.
+    -->

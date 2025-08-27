@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attributes</title>
 </head>
-<body>
+<body style="margin: 0; padding: 0;">
     <!-- Attributes in HTML provides an additional information about an HTML element. 
      This additional information could occur the modification eighter the behaviour or the appearance of an element.
      Attributes are always added in the opening tags. -->
@@ -13,12 +13,54 @@
      <!-- syntax: attributeValue="attributeValue" -->
       <!-- image -->
     <img width="300px" height="300px" src="https://images.unsplash.com/photo-1756029095573-3d63ab16a293?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.
-    0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D" alt="Image"
+    0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D" 
+    alt="Image"
     title="Ancient_image"
+    id="img-1"
+    class="img1 unsplash"
     />
+    <div class="container-1 div-1" style="background-color: aquamarine; padding: 30px; height: 100px;">
+        <a href="#my-para">Click Here to view Lorem</a>
+    </div> <br><hr><br>
+    <a href="https://amazon.in" target="_blank">Amazon</a><br><hr><br>
+    <a href="#my-para">Text</a> <br><hr><br>
+    <a href="mailto:reddimani14@gmail.com">Send mail</a> <br><hr><br>
+    <div style="background-color: yellowgreen; height: 100px;"></div>
+    <div style="background-color: lightgreen; height: 100px;"></div>
+    <div style="background-color: lightgoldenrodyellow; height: 100px;"></div>
+    <div style="background-image: linear-gradient(to left,
+  red, orange, yellow, green, blue, indigo, violet); height: 150px; text-align: center;">
+        <p id="my-para" style="color: whitesmoke;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rem at nisi ab aspernatur 
+            molestiae non ut nemo sapiente doloribus sit cumque, quidem dolores molestias perferendis praesentium. 
+            Delectus, molestiae similique.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nobis consequuntur, 
+            reprehenderit quis tenetur ipsa ipsam eaque dicta nulla error non cupiditate, nihil, alias est 
+            assumenda sequi iure deleniti. Ad accusamus cum nisi eveniet! Quibusdam, aperiam repellat, odio 
+            libero a incidunt atque dolore ab neque commodi possimus perspiciatis cumque architecto!
+        </p>
+    </div>
+    
     <!-- src attribute specifies source url of the media, like image, video or audio.
      alt attribute provides the alternate text for images or a fallback content of any other element 
      title attribute the title of the image shows when hover on the image it is the kind of advisory information
+     id attribute (id="unique_identifier") in simple terms assigning unique identifier to a particular element
+     class attribute (class="className") is used to group multiple elements with the same style or behavior.
+     Unlike id, a class name can be shared by many elements.
+     An element can also have multiple classes (separated by spaces).
+     style attribute (style="property:value") and multiple rules are seperated by semicolon(;)
+     Inline styles apply only to that specific element.
+     They override internal & external CSS (unless those use !important).
+     Useful for quick testing or unique one-off changes.
+     Not recommended for large projects → better to use class or external CSS for maintainability.
+     The <a> tag in HTML is called the anchor tag. It is used to create hyperlinks — clickable links that navigate to another webpage, file, email, or section within the same page. The closing tag </a> is required, and the clickable text/image goes inside.
+     href Attribute: href stands for Hypertext REFerence. It defines the destination URL (where the link will take the user when clicked). Without href, the <a> tag is just text and not a link.
+     target="_blank": The target attribute in the <a> tag tells the browser where to open the link.
+     When you use target="_blank", the link will open in a new tab (or window, depending on browser settings). It’s often used when linking to external websites, so the user doesn’t lose your page.
+     Internal Reference: An internal reference means creating a hyperlink that jumps to another section of the same page instead of going to another page or website.
+     You do this using: An element with an id (the target). An <a> tag with an href="#idname" (the link).
+     mailto: is a type of URL scheme used inside the href attribute of an anchor (<a>) tag.
+     When clicked, it opens the user’s default email client (like Outlook, Gmail app, or Apple Mail) with a new draft email.
      -->
 </body>
 </html>
